@@ -9,6 +9,7 @@ button {
   cursor: pointer;
   transition: 0.3s;
   text-wrap: pretty;
+  margin-top: 8px;
 }
 
 button h4 {
@@ -27,6 +28,7 @@ button:hover {
 
 @media (max-width: 992px) {
   button {
+    margin: 0px;
     padding: 8px 18px;
   }
   button h4 span {

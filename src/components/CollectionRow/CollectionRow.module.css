@@ -7,6 +7,7 @@
   align-items: center;
   width: fit-content;
   flex-shrink: 1;
+  font-weight: bold;
 }
 .image {
   width: 80px;
