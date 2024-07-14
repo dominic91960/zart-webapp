@@ -1,0 +1,20 @@
+.tableRow td {
+  border-top: 1px solid rgb(205, 205, 205);
+  text-wrap: wrap;
+}
+.modelColumn {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  flex-shrink: 1;
+}
+.image {
+  width: 80px;
+  border-radius: 50%;
+}
+
+@media (max-width: 992px) {
+  .image {
+    display: none;
+  }
+}

@@ -3,4 +3,5 @@
   display: flex;
   flex-direction: column;
   margin: 1rem;
+  border-top: 2px solid #cecece;
 }

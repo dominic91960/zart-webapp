@@ -7,11 +7,10 @@ const Header = () => {
   return (
     <header className={classes.header}>
       <img src={Logo} className={classes.logo} />
-      <p>
-        <button className={classes.button}>
-          <IoNotificationsOutline size={26} className={classes.stroke} />3
-        </button>
-      </p>
+
+      <button className={classes.button}>
+        <IoNotificationsOutline size={26} className={classes.stroke} />3
+      </button>
     </header>
   );
 };

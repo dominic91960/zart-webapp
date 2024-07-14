@@ -53,6 +53,7 @@ const HotCollections = () => {
             index
           ) => (
             <ProductCard
+              key={index}
               logo={brandLogo}
               title={brandTitle}
               name={modelName}

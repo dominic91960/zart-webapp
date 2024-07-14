@@ -1,0 +1,14 @@
+.mainContainer {
+  position: relative;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+}
+
+th {
+  text-transform: uppercase;
+  font-weight: normal;
+  text-align: left;
+}

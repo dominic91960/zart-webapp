@@ -2,7 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid #cecece;
+  margin: 0;
+  padding: 0;
 }
 
 .logo {
@@ -14,7 +15,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.75rem 1.5rem;
+  padding: 5px 15px;
   background-color: #ffffff;
   color: #2a2630;
   border: none;
@@ -23,10 +24,11 @@
   cursor: pointer;
   font-weight: bold;
   font-size: 25px;
+  transition: 0.3s;
 }
 
 .button:hover {
-  background-color: #16b5a9;
+  background: linear-gradient(#5acdf079, #5acdf0);
 }
 
 .stroke {
