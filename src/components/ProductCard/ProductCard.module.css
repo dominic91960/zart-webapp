@@ -50,3 +50,12 @@
   justify-content: space-around;
   flex-grow: 1;
 }
+
+@media (max-width: 680px) {
+  .card {
+    height: 75vh;
+  }
+  .statsContainer {
+    margin-bottom: 15px;
+  }
+}

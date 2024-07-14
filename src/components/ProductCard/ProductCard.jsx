@@ -3,7 +3,6 @@ import { FaDroplet, FaCar } from "react-icons/fa6";
 import { PiEngine } from "react-icons/pi";
 
 import classes from "./ProductCard.module.css";
-
 import Stat from "../Stat/Stat";
 
 const ProductCard = ({
