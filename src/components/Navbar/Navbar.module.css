@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  width: fit-content;
+  padding: 0.5rem;
+  border-radius: 12px;
+  height: 80vh;
+  margin-top: 1rem;
+  padding-top: 10px;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profileButton {
+  display: inline-flex;
+  background-color: #000000;
+  border: none;
+  border-radius: 12px;
+  padding: 5px;
+}
+
+.profileButton > img {
+  width: 40px;
+  cursor: pointer;
+}
+
+.profileButton:hover {
+  background-color: rgb(23, 23, 23);
+}

@@ -1,0 +1,15 @@
+/* .mainContainer {
+  background-color: rgb(68, 120, 120);
+} */
+
+.mainContainer h3 {
+  margin-bottom: 0px;
+  line-height: normal;
+}
+
+.cardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

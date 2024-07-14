@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #cecece;
+}
+
+.logo {
+  height: 40px;
+  cursor: pointer;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #ffffff;
+  color: #2a2630;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.button:hover {
+  background-color: #16b5a9;
+}
+
+.stroke {
+  path {
+    stroke-width: 28px !important;
+  }
+}

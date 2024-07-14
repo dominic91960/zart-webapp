@@ -1,0 +1,53 @@
+.card {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  justify-content: center;
+  background-color: antiquewhite;
+  border-radius: 12px;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.mainInfo > img {
+  width: 300px;
+  margin-top: 10px;
+}
+
+.model {
+  display: flex;
+}
+
+.model img {
+  width: 40px;
+}
+
+.modelName {
+  margin-left: 15px;
+}
+
+.modelName h4 {
+  margin: 0px;
+}
+
+.light {
+  margin: 0px;
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+.priceInfo h2 {
+  margin: 0px;
+}
+
+.statsContainer {
+  width: 200px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  flex-grow: 1;
+  /* background-color: aqua; */
+}
