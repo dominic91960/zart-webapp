@@ -18,6 +18,14 @@ const HotCollections = () => {
       speed: "6 Speed",
       cylinders: "4 Cylinder",
       totalRun: "12500km",
+      style: { backgroundColor: "#F2D6C1" },
+      bhpStyle: { width: "30%", height: "29%", backgroundColor: "#F8FBE6" },
+      totalRunStyle: {
+        width: "100%",
+        height: "20%",
+        backgroundColor: "#F2FBF6",
+        flexDirection: "row",
+      },
     },
     {
       brandLogo: NissanLogo,
@@ -30,6 +38,14 @@ const HotCollections = () => {
       speed: "6 Speed",
       cylinders: "6 Cylinder",
       totalRun: "9254km",
+      style: { backgroundColor: "#F7F7F7" },
+      bhpStyle: { width: "30%", height: "29%", backgroundColor: "#E5EBFB" },
+      totalRunStyle: {
+        width: "100%",
+        height: "20%",
+        backgroundColor: "#BBE9BE",
+        flexDirection: "row",
+      },
     },
   ];
   return (
@@ -49,6 +65,9 @@ const HotCollections = () => {
               speed,
               cylinders,
               totalRun,
+              style,
+              bhpStyle,
+              totalRunStyle,
             },
             index
           ) => (
@@ -64,6 +83,9 @@ const HotCollections = () => {
               speed={speed}
               cylinders={cylinders}
               total={totalRun}
+              style={style}
+              bhpStyle={bhpStyle}
+              runStyle={totalRunStyle}
             />
           )
         )}

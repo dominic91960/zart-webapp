@@ -3,11 +3,11 @@
   margin: 10px;
   padding: 10px;
   justify-content: center;
-  background-color: antiquewhite;
   border-radius: 12px;
   flex-wrap: wrap;
   flex-grow: 1;
   cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .mainInfo > img {

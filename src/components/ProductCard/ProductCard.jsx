@@ -16,9 +16,12 @@ const ProductCard = ({
   speed,
   cylinders,
   total,
+  style,
+  bhpStyle,
+  runStyle,
 }) => {
   return (
-    <div className={classes.card}>
+    <div className={classes.card} style={style}>
       <div className={classes.mainInfo}>
         <div className={classes.model}>
           <img src={logo} alt="Land Rover Logo" />
@@ -36,23 +39,33 @@ const ProductCard = ({
         </div>
       </div>
       <div className={classes.statsContainer}>
-        <Stat dispText={cc}>
+        {/* CC */}
+        <Stat
+          style={{ width: "30%", height: "25%", backgroundColor: "#FCE1CC" }}
+          dispText={cc}
+        >
           <BsFillLightningChargeFill />
         </Stat>
-        <Stat style={{ width: "30%", height: "29%" }} dispText={bhp}>
+        {/* BHP */}
+        <Stat style={bhpStyle} dispText={bhp}>
           <BsArrowsVertical />
         </Stat>
-        <Stat dispText={speed}>
+        {/* SPEED */}
+        <Stat
+          style={{ width: "30%", height: "25%", backgroundColor: "#EAE9B1" }}
+          dispText={speed}
+        >
           <FaDroplet />
         </Stat>
-        <Stat style={{ width: "30%", height: "21%" }} dispText={cylinders}>
+        {/* CYLINDER */}
+        <Stat
+          style={{ width: "30%", height: "21%", backgroundColor: "#D3DAE4" }}
+          dispText={cylinders}
+        >
           <PiEngine />
         </Stat>
-        <Stat
-          style={{ width: "100%", height: "20%", flexDirection: "row" }}
-          dispText="Total Run: "
-          dispLight={total}
-        >
+        {/* TOTAL */}
+        <Stat style={runStyle} dispText="Total Run: " dispLight={total}>
           <FaCar />
         </Stat>
       </div>
