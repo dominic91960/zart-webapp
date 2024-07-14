@@ -3,3 +3,19 @@
   /* align-items: center; */
   /* justify-content: center; */
 }
+
+.tableSmall {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .tableSmall {
+    display: inline;
+  }
+}
+
+@media (max-width: 768px) {
+  .tableSmall {
+    font-size: 0.7rem;
+  }
+}

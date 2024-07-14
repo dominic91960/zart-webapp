@@ -9,7 +9,9 @@ const MainSection = () => {
     <section className={classes.main}>
       <Greet />
       <HotCollections />
-      <Collections />
+      <div className={classes.tableLarge}>
+        <Collections />
+      </div>
     </section>
   );
 };
