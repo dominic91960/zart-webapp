@@ -9,7 +9,7 @@ const Header = () => {
       <img src={Logo} className={classes.logo} />
 
       <button className={classes.button}>
-        <IoNotificationsOutline size={26} className={classes.stroke} />3
+        <IoNotificationsOutline size={21} className={classes.stroke} />3
       </button>
     </header>
   );

@@ -5,6 +5,11 @@
 table {
   width: 100%;
   text-align: left;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(40, 40, 40, 0.104);
+  padding: 15px;
+  padding-right: 0px;
 }
 
 th {
