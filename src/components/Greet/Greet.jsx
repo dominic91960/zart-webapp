@@ -6,7 +6,7 @@ const Greet = () => {
   return (
     <div className={classes.mainContainer}>
       <div className={classes.greeting}>
-        <h3>Good Morning,</h3>
+        <h3>Good Morning guys,</h3>
         <h1>Jeff Reeves</h1>
       </div>
       <div className={classes.searchBar}>
